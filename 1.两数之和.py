@@ -9,15 +9,15 @@ from typing import List
 # @lc code=start
 
 
-class Solution:
-    # 哈希表
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        hashtable = dict()
-        for i, num in enumerate(nums):
-            if target - num in hashtable:
-                return [hashtable[target - num], i]
-            hashtable[nums[i]] = i
-        return []
+# class Solution:
+#     # 哈希表
+#     def twoSum(self, nums: List[int], target: int) -> List[int]:
+#         hashtable = dict()
+#         for i, num in enumerate(nums):
+#             if target - num in hashtable:
+#                 return [hashtable[target - num], i]
+#             hashtable[nums[i]] = i
+#         return []
 
 
 class Solution:
